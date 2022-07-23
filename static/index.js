@@ -343,11 +343,11 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 30) return '鸡你太美';
-    if (score <= 60) return '鸡你太太美';
-    if (score <= 100) return '鸡鸡鸡鸡鸡';
-    if (score <= 150) return '唱 跳 rap 篮球';
-    return '你就是蔡徐坤本人？';
+    if (score <= 30) return '张佳芮这么好你就得这点分啊';
+    if (score <= 60) return '张佳芮已经在角落里嘲笑你了';
+    if (score <= 100) return '张佳芮说你虚';
+    if (score <= 150) return '哇，你可以消灭张佳芮了';
+    return '你就是张佳芮本人？';
 }
 
 function toStr(obj) {
